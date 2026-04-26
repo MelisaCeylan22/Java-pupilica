@@ -26,5 +26,10 @@ public class AtmSimulator {
         int tamSayi = (int)hassasDeger;  //virgülden sonrasını görmez
         System.out.println(tamSayi);
 
+        int tamSayi2 = (int) Math.round(hassasDeger);  //yuvarlama yapmak için
+        System.out.println(tamSayi2);
+
+
+
     }
 }
