@@ -27,12 +27,13 @@ public class KahramanKarti {
         System.out.println("İsim: " + isim);
         System.out.println("Seviye: "+ seviye);
         System.out.println("Can: "+ canPuani);
-        System.out.println("eksta can puanı: "+ ekstraHayatPuani);
+        System.out.println("ekstra can puanı: "+ ekstraHayatPuani);
         System.out.println("Hasar: "+ hasarGucu);
         System.out.println("koşma hızı: "+ kosma_hizi);
         System.out.println("eksta can puanı: "+ ekstraHayatPuani);
         System.out.println("Sınıf kodu:"+ sinifKodu);
         System.out.println("Toplam deneyim: "+ toplamDeneyim);
+        System.out.println("==============================");
 
 
         double $fiyat = 500;
