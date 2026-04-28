@@ -32,12 +32,25 @@ public class Main {
         sayi /= 5;
         sayi -= 3;
         System.out.println(sayi);
+
         System.out.println("----- prefix ve suffix -----");
         int varsayilan = 10;
-        System.out.println("Sayının ilk değeri" + varsayilan);
-        System.out.println("++x:   " + ++varsayilan);
-        System.out.println("x++:   " + varsayilan++);
-        System.out.println("Sayının şu anki değeri:   " + varsayilan);
+        System.out.println("Sayının ilk değeri " + varsayilan);
+        System.out.println("++x:   " + ++varsayilan);  //önce artırır, sonra yazdırır
+        System.out.println("x++:   " + varsayilan++);  //önce mevcut değeri yazdırır, sonra artırır
+        System.out.println("Sayının şu anki değeri:   " + varsayilan);   //O anda değer 11’di. Ekrana 11 yazar, sonra değer 12 olur.
+
+        System.out.println("----- Mantıksal Operatötler -----");
+
+        boolean xPozitifMi = x > 0;
+        boolean yPozitifMi = y > 0;
+
+        System.out.println("Her ikisi de pozitif mi? " + (xPozitifMi && yPozitifMi)); //and, and
+        System.out.println("En az biri pozitif mi? " + (xPozitifMi || yPozitifMi)); //or
+        System.out.println("a negatif mi? " + (!xPozitifMi));
+
+
+
 
     }
 }
