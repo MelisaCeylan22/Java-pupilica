@@ -32,7 +32,6 @@ public class Main {
         sayi /= 5;
         sayi -= 3;
         System.out.println(sayi);
-
         System.out.println("----- prefix ve suffix -----");
         int varsayilan = 10;
         System.out.println("Sayının ilk değeri" + varsayilan);
