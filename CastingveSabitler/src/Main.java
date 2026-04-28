@@ -12,14 +12,14 @@ public class Main {
 
         //Casting:
         int tamSayi = 46;
-        //implicitly casting (widening - genişletme)
+        //implicit casting (widening - genişletme) küçük → büyük veri tipi otomatik dönüşüm
         double deger = tamSayi;
         System.out.println(deger);
 
         long buyukSayi = tamSayi;
         System.out.println(buyukSayi);
 
-        //explicit casting (narrowing - daraltma)
+        //explicit casting (narrowing - daraltma) Büyük → küçük dönüşüm sen yaparsın
         byte sekizBit = (byte) tamSayi;
         System.out.println(sekizBit);
 
